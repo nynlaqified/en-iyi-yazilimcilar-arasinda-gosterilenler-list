@@ -244,7 +244,7 @@ swe, gönüllü @ @acikyazilimagi, fellow @ @tfashionai | ingilizce hesabım: @e
 
 CTO at KARDEŞLER YAZ. BİL. İŞL. SAN. LTD. part time Kumarhane Güvenlik Şefi at Casino Intl. Batumi ex teach lead & GM @ Metin2 786 iq, tested, ömer baba fanclub
 
-📍 Konum belirtilmemiş | 👥 19.271 takipçi | 🔗 846 takip
+📍 Konum belirtilmemiş | 👥 19.272 takipçi | 🔗 846 takip
 
 </td>
 </tr>
@@ -1852,6 +1852,6 @@ Bu liste **GitHub Actions** ile günde 2 kez (09:00 ve 21:00 TSI) otomatik olara
 **Powered by GitHub Actions** 🚀
 
 _Toplam 90 kullanıcı_
-_Son güncelleme: 24 Kasım 2025 13:21_
+_Son güncelleme: 24 Kasım 2025 13:23_
 
 </div>
