@@ -1,15 +1,6 @@
-# 🐦 Twitter Takip Edilenler
+# Türkiye'nin en iyi yazılımcıları 👩‍💻👨‍💻
 
-> **Son Güncelleme:** 24 Kasım 2025 11:34  
-> **Toplam:** 50 kullanıcı
-
----
-
-## 📊 İstatistikler
-
-- **Toplam Takip Edilen**: 50
-- **Doğrulanmış Hesaplar**: 0
-- **Ortalama Takipçi Sayısı**: 12.432
+Türkiyenin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin takip listesinden referans alarak derleyen liste.
 
 ---
 
@@ -32,7 +23,7 @@ Kitaplar:
 'Yapay Zekâya Giriş', 'En Hakiki Mürşit', 'Yeni Dünya, Yeni Ağ', '50 Soruda Yapay Zekâ'.
 Ve 'Geometri' (Atatürk)
 
-📍 Konum belirtilmemiş | 👥 370.728 takipçi | 🔗 1.154 takip | 🌐 [Website](https://t.co/093L2xYqyv)
+📍 Konum belirtilmemiş | 👥 370.732 takipçi | 🔗 1.154 takip | 🌐 [Website](https://t.co/093L2xYqyv)
 
 </td>
 </tr>
@@ -72,7 +63,7 @@ Oyuncu, seslendirme sanatçısı, müzik yakıtı... ¨Korkuluk // Bir Hayvan Ya
 
 Tech. Lead. | MUG Lead @mongodb | ex. Ambassador @Couchbase | Go & Kubernetes Evangelist | Open source contributor | Organizer @GoTurkiye_
 
-📍 Konum belirtilmemiş | 👥 26.411 takipçi | 🔗 545 takip | 🌐 [Website](https://t.co/rCBmdLwcBV)
+📍 Konum belirtilmemiş | 👥 26.413 takipçi | 🔗 545 takip | 🌐 [Website](https://t.co/rCBmdLwcBV)
 
 </td>
 </tr>
@@ -177,7 +168,7 @@ Yazılımcı, Amatör İHA Pilotu, Ahşap Oymacı, Ziraat Mühendisi @Weather4Fl
 
 Entrepreneur, Software Developer, Open Source Lover, Honorary President of the Estonian Association of Atheists Expatriates 🇹🇷🇪🇪
 
-📍 Tallinn 🇪🇪 | 👥 7.427 takipçi | 🔗 808 takip | 🌐 [Website](https://t.co/3Caz6Ochgw) | 💼 Entrepreneur
+📍 Tallinn 🇪🇪 | 👥 7.426 takipçi | 🔗 808 takip | 🌐 [Website](https://t.co/3Caz6Ochgw) | 💼 Entrepreneur
 
 </td>
 </tr>
@@ -340,7 +331,7 @@ python sevdalilari dernegi 🐍
 
 🧑‍💻 Mobile Developer
 
-📍 Konum belirtilmemiş | 👥 4.214 takipçi | 🔗 1.808 takip
+📍 Konum belirtilmemiş | 👥 4.213 takipçi | 🔗 1.808 takip
 
 </td>
 </tr>
@@ -360,7 +351,7 @@ python sevdalilari dernegi 🐍
 
 Beşiktaş JK Congress Member 🦅 | Architect Software Engineer ⌨️ | Kâfi… #Bambaşka
 
-📍 İstanbul, Türkiye | 👥 4.172 takipçi | 🔗 895 takip | 🌐 [Website](https://t.co/69sSd9HzI0) | 💼 Business
+📍 İstanbul, Türkiye | 👥 4.171 takipçi | 🔗 895 takip | 🌐 [Website](https://t.co/69sSd9HzI0) | 💼 Business
 
 </td>
 </tr>
@@ -441,7 +432,7 @@ Computer & Software Engineer | Hardware & Software Content Creator | Delegate of
 👨‍💻 Full Stack Developer & Mobile App Creator
 🚀 Founder of @AppalizeDev – ASO Tools for App Growth
 
-📍 Türkiye | 👥 3.039 takipçi | 🔗 485 takip | 🌐 [Website](https://t.co/Ljsma3gNOm) | 💼 Project Manager
+📍 Türkiye | 👥 3.041 takipçi | 🔗 485 takip | 🌐 [Website](https://t.co/Ljsma3gNOm) | 💼 Project Manager
 
 </td>
 </tr>
@@ -461,7 +452,7 @@ Computer & Software Engineer | Hardware & Software Content Creator | Delegate of
 
 SWE AI/ML
 
-📍 İzmir | 👥 2.957 takipçi | 🔗 923 takip | 🌐 [Website](https://t.co/Jvkden3tR7)
+📍 İzmir | 👥 2.958 takipçi | 🔗 923 takip | 🌐 [Website](https://t.co/Jvkden3tR7)
 
 </td>
 </tr>
@@ -584,7 +575,7 @@ WordPress, Part-Time İnşaat Ustası
 
 Web Developer | From pixels to databases | Passionate about secure, scalable apps | Explorer of the digital world
 
-📍 Konum belirtilmemiş | 👥 1.627 takipçi | 🔗 1.046 takip | 🌐 [Website](https://t.co/Lfwa0t3DYX)
+📍 Konum belirtilmemiş | 👥 1.627 takipçi | 🔗 1.047 takip | 🌐 [Website](https://t.co/Lfwa0t3DYX)
 
 </td>
 </tr>
@@ -627,7 +618,7 @@ TB2TTY/Akut/MEB Motosiklet Güvenli Ve İleri Sürüş Teknikleri Eğt.
 
 chaotic neutral court wizard ♦️ art & personal
 
-📍 Konum belirtilmemiş | 👥 1.304 takipçi | 🔗 810 takip
+📍 Konum belirtilmemiş | 👥 1.305 takipçi | 🔗 810 takip
 
 </td>
 </tr>
@@ -690,7 +681,7 @@ SQL, C#, PHP, Wordpress
 
 Nkü - Computer Programming Istanbul University MIS 2/4 - Software Developer
 
-📍 Konum belirtilmemiş | 👥 614 takipçi | 🔗 696 takip | 🌐 [Website](https://t.co/jddBR6kGeS)
+📍 Konum belirtilmemiş | 👥 619 takipçi | 🔗 696 takip | 🌐 [Website](https://t.co/jddBR6kGeS)
 
 </td>
 </tr>
@@ -730,7 +721,7 @@ Industrial Automation Software Developer | PLC | HMI | Motion Control @OmronTR &
 
 Software Engineer | Playmaker x2
 
-📍 Konum belirtilmemiş | 👥 287 takipçi | 🔗 371 takip
+📍 Konum belirtilmemiş | 👥 288 takipçi | 🔗 371 takip
 
 </td>
 </tr>
@@ -1049,6 +1040,7 @@ Bu liste **GitHub Actions** ile günde 2 kez (09:00 ve 21:00 TSI) otomatik olara
 
 **Powered by GitHub Actions** 🚀
 
-_Son güncelleme: 24 Kasım 2025 11:34_
+_Toplam 50 kullanıcı_
+_Son güncelleme: 24 Kasım 2025 11:51_
 
 </div>
