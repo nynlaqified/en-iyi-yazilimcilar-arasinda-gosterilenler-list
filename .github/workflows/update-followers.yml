@@ -1,0 +1,45 @@
+name: Update Twitter Following List
+
+on:
+  schedule:
+    # Her gün 09:00 TSI (06:00 UTC)
+    - cron: '0 6 * * *'
+    # Her gün 21:00 TSI (18:00 UTC)
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # Manuel tetikleme için
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: 📦 Install dependencies
+        run: npm install
+        
+      - name: 🔍 Fetch following data
+        env:
+          # GitHub Secrets'tan API key'i al (GÜVENLİ)
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RAPIDAPI_HOST: 'x-com2.p.rapidapi.com'
+          # GitHub Variables'tan veya direkt değerler
+          TWITTER_USER_ID: ${{ vars.TWITTER_USER_ID || '1990028056136957952' }}
+          FOLLOWING_COUNT: ${{ vars.FOLLOWING_COUNT || '200' }}
+        run: node scripts/fetch-following.js
+        
+      - name: 📝 Generate README
+        run: node scripts/generate-readme.js
+        
+      - name: 💾 Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md data/following.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Takip edilen liste güncellendi - $(date +'%Y-%m-%d %H:%M')" && git push)
