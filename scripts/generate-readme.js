@@ -6,11 +6,11 @@ const path = require('path');
  */
 function loadFollowingData() {
   const filePath = path.join(__dirname, '..', 'data', 'following.json');
-  
+
   if (!fs.existsSync(filePath)) {
     throw new Error('❌ data/following.json dosyası bulunamadı! Önce "npm run fetch" komutunu çalıştırın.');
   }
-  
+
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   console.log(`📖 ${data.total_count} kullanıcı verisi yüklendi`);
   return data;
@@ -34,7 +34,7 @@ function sortUsers(users) {
  */
 function generateReadme(data) {
   const users = sortUsers([...data.users]); // Orijinal diziyi değiştirmemek için kopyala
-  
+
   const lastUpdate = new Date(data.updated_at).toLocaleString('tr-TR', {
     timeZone: 'Europe/Istanbul',
     year: 'numeric',
@@ -47,18 +47,9 @@ function generateReadme(data) {
   const verifiedCount = users.filter(u => u.verified).length;
   const avgFollowers = Math.round(users.reduce((sum, u) => sum + u.followers_count, 0) / users.length);
 
-  let readme = `# 🐦 Twitter Takip Edilenler
+  let readme = `# Türkiye'nin en iyi yazılımcıları 👩‍💻👨‍💻
 
-> **Son Güncelleme:** ${lastUpdate}  
-> **Toplam:** ${users.length} kullanıcı
-
----
-
-## 📊 İstatistikler
-
-- **Toplam Takip Edilen**: ${users.length}
-- **Doğrulanmış Hesaplar**: ${verifiedCount}
-- **Ortalama Takipçi Sayısı**: ${avgFollowers.toLocaleString('tr-TR')}
+Türkiyenin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin takip listesinden referans alarak derleyen liste.
 
 ---
 
@@ -69,7 +60,7 @@ function generateReadme(data) {
   users.forEach((user, index) => {
     // Profil resmini büyük versiyona çevir
     const profileImage = user.profile_image.replace('_normal', '_bigger');
-    
+
     readme += `
 ### ${index + 1}. ${user.name} ${user.verified ? '✓' : ''}
 
@@ -106,6 +97,7 @@ Bu liste **GitHub Actions** ile günde 2 kez (09:00 ve 21:00 TSI) otomatik olara
 
 **Powered by GitHub Actions** 🚀
 
+_Toplam ${users.length} kullanıcı_
 _Son güncelleme: ${lastUpdate}_
 
 </div>
@@ -129,16 +121,16 @@ function saveReadme(content) {
 async function main() {
   try {
     console.log('📝 README.md oluşturuluyor...\n');
-    
+
     // Veriyi yükle
     const data = loadFollowingData();
-    
+
     // README içeriğini oluştur
     const readme = generateReadme(data);
-    
+
     // Kaydet
     saveReadme(readme);
-    
+
     console.log('\n✅ README.md başarıyla oluşturuldu!');
   } catch (error) {
     console.error('\n❌ Hata:', error.message);
