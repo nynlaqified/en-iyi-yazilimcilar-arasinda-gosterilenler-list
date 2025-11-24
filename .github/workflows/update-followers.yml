@@ -8,6 +8,9 @@ on:
     - cron: '0 18 * * *'
   workflow_dispatch:  # Manuel tetikleme için
 
+permissions:
+  contents: write  # README.md ve data/following.json'a yazma yetkisi
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -15,6 +18,8 @@ jobs:
     steps:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub Actions token'ı kullan
         
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
