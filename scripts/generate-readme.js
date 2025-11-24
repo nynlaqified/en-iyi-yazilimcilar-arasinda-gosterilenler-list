@@ -100,19 +100,6 @@ ${user.description || '_Açıklama yok_'}
 
 Bu liste **GitHub Actions** ile günde 2 kez (09:00 ve 21:00 TSI) otomatik olarak güncellenmektedir.
 
-### 📈 Proje Hakkında
-
-- ⚡ **Otomatik Güncelleme**: Günlük 2 kez
-- 🔒 **Güvenli**: API anahtarı GitHub Secrets'ta
-- 🎨 **Responsive**: Tüm cihazlarda güzel görünüm
-- 📊 **İstatistikler**: Anlık takip verileri
-
-### 🛠️ Teknolojiler
-
-- Node.js
-- GitHub Actions
-- RapidAPI (X/Twitter API)
-
 ---
 
 <div align="center">
