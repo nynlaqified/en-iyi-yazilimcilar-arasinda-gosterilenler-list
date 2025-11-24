@@ -37,6 +37,8 @@ jobs:
           # GitHub Variables'tan veya direkt değerler
           TWITTER_USER_ID: ${{ vars.TWITTER_USER_ID || '1990028056136957952' }}
           FOLLOWING_COUNT: ${{ vars.FOLLOWING_COUNT || '200' }}
+          # Blocklist ID'leri (GitHub Secrets'tan)
+          BLOCKLIST_IDS: ${{ secrets.BLOCKLIST_IDS }}
         run: node scripts/fetch-following.js
         
       - name: 📝 Generate README

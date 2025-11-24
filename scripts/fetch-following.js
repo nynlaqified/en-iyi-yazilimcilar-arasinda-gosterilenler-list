@@ -133,6 +133,15 @@ function parseFollowingData(apiResponse) {
   const instructions = apiResponse?.data?.user?.result?.timeline?.timeline?.instructions || [];
   const entries = instructions.find(i => i.type === 'TimelineAddEntries')?.entries || [];
   
+  // Blocklist'i env'den oku
+  const blocklistIds = process.env.BLOCKLIST_IDS 
+    ? process.env.BLOCKLIST_IDS.split(',').map(id => id.trim())
+    : [];
+  
+  if (blocklistIds.length > 0) {
+    console.log(`🚫 Blocklist aktif: ${blocklistIds.length} ID filtrelenecek`);
+  }
+  
   const users = entries
     .filter(entry => entry.content.itemContent?.user_results?.result)
     .map(entry => {
@@ -156,8 +165,14 @@ function parseFollowingData(apiResponse) {
         } : null
       };
     })
-    .filter(user => user.id && user.screen_name); // Geçersiz kullanıcıları filtrele
+    .filter(user => user.id && user.screen_name) // Geçersiz kullanıcıları filtrele
+    .filter(user => !blocklistIds.includes(user.id)); // Blocklist'teki kullanıcıları filtrele
 
+  const filteredCount = entries.filter(entry => entry.content.itemContent?.user_results?.result).length - users.length;
+  if (filteredCount > 0) {
+    console.log(`🚫 ${filteredCount} kullanıcı blocklist nedeniyle filtrelendi`);
+  }
+  
   console.log(`📊 ${users.length} kullanıcı parse edildi`);
   return users;
 }
