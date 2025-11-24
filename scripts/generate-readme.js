@@ -62,7 +62,7 @@ Türkiye'nin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin
     const profileImage = user.profile_image.replace('_normal', '_bigger');
 
     readme += `
-### ${index + 1}. ${user.name} ${user.verified ? '✓' : ''}
+### ${user.name} ${user.verified ? '✓' : ''}
 
 <table>
 <tr>
