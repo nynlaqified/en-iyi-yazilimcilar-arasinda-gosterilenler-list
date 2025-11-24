@@ -4,29 +4,31 @@ const path = require('path');
 require('dotenv').config(); // Local development için .env dosyasını yükle
 
 /**
- * Twitter/X API'den takip edilen kullanıcıları çeker
+ * Twitter/X API'den takip edilen kullanıcıları çeker (tek sayfa)
+ * @param {string} cursor - Pagination için cursor (opsiyonel)
  */
-async function fetchFollowing() {
-  // Environment variables'ları al
-  // GitHub Actions'da: GitHub Secrets'tan gelir
-  // Local'de: .env dosyasından gelir
-  const options = {
-    method: 'GET',
-    hostname: process.env.RAPIDAPI_HOST || 'x-com2.p.rapidapi.com',
-    port: null,
-    path: `/Following/?id=${process.env.TWITTER_USER_ID}&count=${process.env.FOLLOWING_COUNT || 200}`,
-    headers: {
-      'x-rapidapi-key': process.env.RAPIDAPI_KEY,
-      'x-rapidapi-host': process.env.RAPIDAPI_HOST || 'x-com2.p.rapidapi.com'
-    }
-  };
-
+async function fetchFollowingPage(cursor = null) {
   // API key kontrolü
   if (!process.env.RAPIDAPI_KEY) {
     throw new Error('❌ RAPIDAPI_KEY environment variable bulunamadı!');
   }
 
-  console.log('🔍 Twitter takip edilen listesi çekiliyor...');
+  // Path oluştur (cursor varsa ekle)
+  let path = `/Following/?id=${process.env.TWITTER_USER_ID}&count=50`;
+  if (cursor) {
+    path += `&cursor=${encodeURIComponent(cursor)}`;
+  }
+
+  const options = {
+    method: 'GET',
+    hostname: process.env.RAPIDAPI_HOST || 'x-com2.p.rapidapi.com',
+    port: null,
+    path: path,
+    headers: {
+      'x-rapidapi-key': process.env.RAPIDAPI_KEY,
+      'x-rapidapi-host': process.env.RAPIDAPI_HOST || 'x-com2.p.rapidapi.com'
+    }
+  };
 
   return new Promise((resolve, reject) => {
     const req = https.request(options, (res) => {
@@ -38,7 +40,6 @@ async function fetchFollowing() {
         const body = Buffer.concat(chunks);
         try {
           const data = JSON.parse(body.toString());
-          console.log('✅ API isteği başarılı');
           resolve(data);
         } catch (error) {
           reject(new Error('❌ JSON parse hatası: ' + error.message));
@@ -52,6 +53,77 @@ async function fetchFollowing() {
     
     req.end();
   });
+}
+
+/**
+ * Tüm takip edilen kullanıcıları çeker (pagination ile)
+ */
+async function fetchFollowing() {
+  console.log('🔍 Twitter takip edilen listesi çekiliyor...');
+  
+  const maxCount = parseInt(process.env.FOLLOWING_COUNT || 200);
+  let allUsers = [];
+  let cursor = null;
+  let pageCount = 0;
+
+  while (allUsers.length < maxCount) {
+    pageCount++;
+    console.log(`📄 Sayfa ${pageCount} çekiliyor... (Toplam: ${allUsers.length})`);
+    
+    const response = await fetchFollowingPage(cursor);
+    const instructions = response?.data?.user?.result?.timeline?.timeline?.instructions || [];
+    const entries = instructions.find(i => i.type === 'TimelineAddEntries')?.entries || [];
+    
+    // Kullanıcıları filtrele
+    const users = entries.filter(entry => entry.content.itemContent?.user_results?.result);
+    
+    if (users.length === 0) {
+      console.log('⚠️ Bu sayfada kullanıcı bulunamadı, durduruluyor.');
+      break;
+    }
+    
+    allUsers = allUsers.concat(users);
+    
+    // Cursor'u bul (bir sonraki sayfa için)
+    const cursorEntry = entries.find(entry => entry.content.cursorType === 'Bottom');
+    
+    if (!cursorEntry || !cursorEntry.content.value) {
+      console.log('✅ Tüm sayfalar çekildi (cursor bulunamadı)');
+      break;
+    }
+    
+    cursor = cursorEntry.content.value;
+    
+    // Maksimum sayıya ulaştık mı?
+    if (allUsers.length >= maxCount) {
+      console.log(`✅ Maksimum sayıya ulaşıldı: ${maxCount}`);
+      allUsers = allUsers.slice(0, maxCount);
+      break;
+    }
+    
+    // Rate limiting için küçük bir gecikme
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }
+  
+  console.log(`✅ Toplam ${allUsers.length} kullanıcı çekildi (${pageCount} sayfa)`);
+  
+  // Response formatını koruyalım
+  return {
+    data: {
+      user: {
+        result: {
+          timeline: {
+            timeline: {
+              instructions: [{
+                type: 'TimelineAddEntries',
+                entries: allUsers
+              }]
+            }
+          }
+        }
+      }
+    }
+  };
 }
 
 /**
