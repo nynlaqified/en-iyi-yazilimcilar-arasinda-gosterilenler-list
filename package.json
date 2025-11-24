@@ -1,0 +1,25 @@
+{
+  "name": "twitter-following-tracker",
+  "version": "1.0.0",
+  "description": "Otomatik Twitter takip edilen listesi güncelleyici - GitHub Actions ile günde 2 kez otomatik güncelleme",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-following.js",
+    "generate": "node scripts/generate-readme.js",
+    "update": "node scripts/fetch-following.js && node scripts/generate-readme.js",
+    "test": "node scripts/fetch-following.js && node scripts/generate-readme.js && echo '✅ Test başarılı!'"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "following",
+    "tracker",
+    "github-actions",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
