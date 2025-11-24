@@ -62,7 +62,7 @@ Türkiye'nin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin
     const profileImage = user.profile_image.replace('_normal', '_bigger');
 
     readme += `
-### ${user.name} ${user.verified ? '✓' : ''}
+### 
 
 <table>
 <tr>
@@ -71,7 +71,7 @@ Türkiye'nin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin
 </td>
 <td>
 
-**[@${user.screen_name}](https://twitter.com/${user.screen_name})**
+${user.name} ${user.verified ? '✓' : ''} **[@${user.screen_name}](https://x.com/${user.screen_name})**
 
 ${user.description || '_Açıklama yok_'}
 
