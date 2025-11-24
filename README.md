@@ -1,6 +1,6 @@
 # Türkiye'nin en iyi yazılımcıları 👩‍💻👨‍💻
 
-Türkiyenin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin takip listesinden referans alarak derleyen liste.
+Türkiye'nin en iyi yazılımcılarını https://x.com/eniyiyazilimci profilinin takip listesinden referans alarak derleyen liste.
 
 ---
 
@@ -23,7 +23,7 @@ Kitaplar:
 'Yapay Zekâya Giriş', 'En Hakiki Mürşit', 'Yeni Dünya, Yeni Ağ', '50 Soruda Yapay Zekâ'.
 Ve 'Geometri' (Atatürk)
 
-📍 Konum belirtilmemiş | 👥 370.732 takipçi | 🔗 1.154 takip | 🌐 [Website](https://t.co/093L2xYqyv)
+📍 Konum belirtilmemiş | 👥 370.731 takipçi | 🔗 1.154 takip | 🌐 [Website](https://t.co/093L2xYqyv)
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ happy dad • vibecoder • devrel @teknasyontech • @github star • @windsurf
 
 Oyuncu, seslendirme sanatçısı, müzik yakıtı... ¨Korkuluk // Bir Hayvan Yaratmak (2013)¨
 
-📍 İstanbul | 👥 80.480 takipçi | 🔗 636 takip | 🌐 [Website](https://t.co/xkhqAjmo31) | 💼 Actor
+📍 İstanbul | 👥 80.481 takipçi | 🔗 636 takip | 🌐 [Website](https://t.co/xkhqAjmo31) | 💼 Actor
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ I have been coding since 1993. I am computer and civil engineer. Microsoft #MVP.
 
 Tech. Lead. | MUG Lead @mongodb | ex. Ambassador @Couchbase | Go & Kubernetes Evangelist | Open source contributor | Organizer @GoTurkiye_
 
-📍 Konum belirtilmemiş | 👥 26.413 takipçi | 🔗 545 takip | 🌐 [Website](https://t.co/rCBmdLwcBV)
+📍 Konum belirtilmemiş | 👥 26.411 takipçi | 🔗 545 takip | 🌐 [Website](https://t.co/rCBmdLwcBV)
 
 </td>
 </tr>
@@ -369,7 +369,7 @@ chief of staff @beeper at @automattic, high functioning idiot, turkish 🇹🇷
 
 Yazılımcı, Amatör İHA Pilotu, Ahşap Oymacı, Ziraat Mühendisi @Weather4Fly
 
-📍 Auckland | 👥 7.746 takipçi | 🔗 4.008 takip | 🌐 [Website](https://t.co/2WCvHRc7IA)
+📍 Auckland | 👥 7.747 takipçi | 🔗 4.008 takip | 🌐 [Website](https://t.co/2WCvHRc7IA)
 
 </td>
 </tr>
@@ -615,7 +615,7 @@ python sevdalilari dernegi 🐍
 
 🧑‍💻 Mobile Developer
 
-📍 Konum belirtilmemiş | 👥 4.213 takipçi | 🔗 1.808 takip
+📍 Konum belirtilmemiş | 👥 4.214 takipçi | 🔗 1.808 takip
 
 </td>
 </tr>
@@ -635,7 +635,7 @@ python sevdalilari dernegi 🐍
 
 Beşiktaş JK Congress Member 🦅 | Architect Software Engineer ⌨️ | Kâfi… #Bambaşka
 
-📍 İstanbul, Türkiye | 👥 4.171 takipçi | 🔗 895 takip | 🌐 [Website](https://t.co/69sSd9HzI0) | 💼 Business
+📍 İstanbul, Türkiye | 👥 4.172 takipçi | 🔗 895 takip | 🌐 [Website](https://t.co/69sSd9HzI0) | 💼 Business
 
 </td>
 </tr>
@@ -776,7 +776,7 @@ Computer & Software Engineer | Hardware & Software Content Creator | Delegate of
 👨‍💻 Full Stack Developer & Mobile App Creator
 🚀 Founder of @AppalizeDev – ASO Tools for App Growth
 
-📍 Türkiye | 👥 3.042 takipçi | 🔗 485 takip | 🌐 [Website](https://t.co/Ljsma3gNOm) | 💼 Project Manager
+📍 Türkiye | 👥 3.041 takipçi | 🔗 485 takip | 🌐 [Website](https://t.co/Ljsma3gNOm) | 💼 Project Manager
 
 </td>
 </tr>
@@ -816,7 +816,7 @@ Freelance, Fullstack php developer…Self-improving… @zalando
 
 SWE AI/ML
 
-📍 İzmir | 👥 2.958 takipçi | 🔗 923 takip | 🌐 [Website](https://t.co/Jvkden3tR7)
+📍 İzmir | 👥 2.957 takipçi | 🔗 923 takip | 🌐 [Website](https://t.co/Jvkden3tR7)
 
 </td>
 </tr>
@@ -1039,7 +1039,7 @@ WordPress, Part-Time İnşaat Ustası
 
 Web Developer | From pixels to databases | Passionate about secure, scalable apps | Explorer of the digital world
 
-📍 Konum belirtilmemiş | 👥 1.627 takipçi | 🔗 1.047 takip | 🌐 [Website](https://t.co/Lfwa0t3DYX)
+📍 Konum belirtilmemiş | 👥 1.627 takipçi | 🔗 1.046 takip | 🌐 [Website](https://t.co/Lfwa0t3DYX)
 
 </td>
 </tr>
@@ -1122,7 +1122,7 @@ Sr. SWE with Frontend Focus, musician, snowboarder, dancer, traveler. Jack of al
 
 chaotic neutral court wizard ♦️ art & personal
 
-📍 Konum belirtilmemiş | 👥 1.305 takipçi | 🔗 810 takip
+📍 Konum belirtilmemiş | 👥 1.304 takipçi | 🔗 810 takip
 
 </td>
 </tr>
@@ -1821,7 +1821,7 @@ Software Developer - Uykusuz Developer.
 
 ---
 
-## 🤖 Otomasyasyon
+## 🤖 Otomasyon
 
 Bu liste **GitHub Actions** ile günde 2 kez (09:00 ve 21:00 TSI) otomatik olarak güncellenmektedir.
 
@@ -1832,6 +1832,6 @@ Bu liste **GitHub Actions** ile günde 2 kez (09:00 ve 21:00 TSI) otomatik olara
 **Powered by GitHub Actions** 🚀
 
 _Toplam 89 kullanıcı_
-_Son güncelleme: 24 Kasım 2025 11:55_
+_Son güncelleme: 24 Kasım 2025 11:59_
 
 </div>
